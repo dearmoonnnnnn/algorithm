@@ -1,0 +1,77 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "arrayProject",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "dynamicArrays::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dynamicArrays-Debug-03540343584f40a1acb7.json",
+					"name" : "dynamicArrays",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dynamicArrays_problem1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dynamicArrays_problem1-Debug-ed820b1cec450e27eb1f.json",
+					"name" : "dynamicArrays_problem1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "staticArrays::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-staticArrays-Debug-380d67f5f82719ec08c6.json",
+					"name" : "staticArrays",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/dearmoon/cpp_projects/algorithm/array/build",
+		"source" : "/home/dearmoon/cpp_projects/algorithm/array"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}

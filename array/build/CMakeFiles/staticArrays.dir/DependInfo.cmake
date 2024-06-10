@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/dearmoon/cpp_projects/algorithm/array/src/dynamicArrays_problem1.cpp" "/home/dearmoon/cpp_projects/algorithm/array/build/CMakeFiles/dynamicArrays_problem1.dir/src/dynamicArrays_problem1.cpp.o"
+  "/home/dearmoon/cpp_projects/algorithm/array/src/staticArrays.cpp" "/home/dearmoon/cpp_projects/algorithm/array/build/CMakeFiles/staticArrays.dir/src/staticArrays.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

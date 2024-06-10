@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/cstyle_string.dir/src/cstyle_string.cpp.o  -o cstyle_string 

@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/staticArrays.dir/src/staticArrays.cpp.o  -o staticArrays 

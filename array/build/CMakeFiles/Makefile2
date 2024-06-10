@@ -44,16 +44,17 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/dearmoon/cpp_projects/array
+CMAKE_SOURCE_DIR = /home/dearmoon/cpp_projects/algorithm/array
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/dearmoon/cpp_projects/array/build
+CMAKE_BINARY_DIR = /home/dearmoon/cpp_projects/algorithm/array/build
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
 all: CMakeFiles/dynamicArrays.dir/all
+all: CMakeFiles/staticArrays.dir/all
 all: CMakeFiles/dynamicArrays_problem1.dir/all
 
 .PHONY : all
@@ -65,6 +66,7 @@ preinstall:
 
 # The main recursive "clean" target.
 clean: CMakeFiles/dynamicArrays.dir/clean
+clean: CMakeFiles/staticArrays.dir/clean
 clean: CMakeFiles/dynamicArrays_problem1.dir/clean
 
 .PHONY : clean
@@ -76,14 +78,14 @@ clean: CMakeFiles/dynamicArrays_problem1.dir/clean
 CMakeFiles/dynamicArrays.dir/all:
 	$(MAKE) -f CMakeFiles/dynamicArrays.dir/build.make CMakeFiles/dynamicArrays.dir/depend
 	$(MAKE) -f CMakeFiles/dynamicArrays.dir/build.make CMakeFiles/dynamicArrays.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dearmoon/cpp_projects/array/build/CMakeFiles --progress-num=1,2 "Built target dynamicArrays"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dearmoon/cpp_projects/algorithm/array/build/CMakeFiles --progress-num=1,2 "Built target dynamicArrays"
 .PHONY : CMakeFiles/dynamicArrays.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/dynamicArrays.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dearmoon/cpp_projects/array/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dearmoon/cpp_projects/algorithm/array/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/dynamicArrays.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dearmoon/cpp_projects/array/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dearmoon/cpp_projects/algorithm/array/build/CMakeFiles 0
 .PHONY : CMakeFiles/dynamicArrays.dir/rule
 
 # Convenience name for target.
@@ -97,20 +99,47 @@ CMakeFiles/dynamicArrays.dir/clean:
 .PHONY : CMakeFiles/dynamicArrays.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/staticArrays.dir
+
+# All Build rule for target.
+CMakeFiles/staticArrays.dir/all:
+	$(MAKE) -f CMakeFiles/staticArrays.dir/build.make CMakeFiles/staticArrays.dir/depend
+	$(MAKE) -f CMakeFiles/staticArrays.dir/build.make CMakeFiles/staticArrays.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dearmoon/cpp_projects/algorithm/array/build/CMakeFiles --progress-num=5,6 "Built target staticArrays"
+.PHONY : CMakeFiles/staticArrays.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/staticArrays.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dearmoon/cpp_projects/algorithm/array/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/staticArrays.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dearmoon/cpp_projects/algorithm/array/build/CMakeFiles 0
+.PHONY : CMakeFiles/staticArrays.dir/rule
+
+# Convenience name for target.
+staticArrays: CMakeFiles/staticArrays.dir/rule
+
+.PHONY : staticArrays
+
+# clean rule for target.
+CMakeFiles/staticArrays.dir/clean:
+	$(MAKE) -f CMakeFiles/staticArrays.dir/build.make CMakeFiles/staticArrays.dir/clean
+.PHONY : CMakeFiles/staticArrays.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/dynamicArrays_problem1.dir
 
 # All Build rule for target.
 CMakeFiles/dynamicArrays_problem1.dir/all:
 	$(MAKE) -f CMakeFiles/dynamicArrays_problem1.dir/build.make CMakeFiles/dynamicArrays_problem1.dir/depend
 	$(MAKE) -f CMakeFiles/dynamicArrays_problem1.dir/build.make CMakeFiles/dynamicArrays_problem1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dearmoon/cpp_projects/array/build/CMakeFiles --progress-num=3,4 "Built target dynamicArrays_problem1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dearmoon/cpp_projects/algorithm/array/build/CMakeFiles --progress-num=3,4 "Built target dynamicArrays_problem1"
 .PHONY : CMakeFiles/dynamicArrays_problem1.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/dynamicArrays_problem1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dearmoon/cpp_projects/array/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dearmoon/cpp_projects/algorithm/array/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/dynamicArrays_problem1.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dearmoon/cpp_projects/array/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dearmoon/cpp_projects/algorithm/array/build/CMakeFiles 0
 .PHONY : CMakeFiles/dynamicArrays_problem1.dir/rule
 
 # Convenience name for target.

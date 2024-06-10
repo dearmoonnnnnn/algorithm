@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/for_each.dir/src/for_each.cpp.o  -o for_each 

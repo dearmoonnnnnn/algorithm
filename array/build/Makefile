@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/dearmoon/cpp_projects/array
+CMAKE_SOURCE_DIR = /home/dearmoon/cpp_projects/algorithm/array
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/dearmoon/cpp_projects/array/build
+CMAKE_BINARY_DIR = /home/dearmoon/cpp_projects/algorithm/array/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dearmoon/cpp_projects/array/build/CMakeFiles /home/dearmoon/cpp_projects/array/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dearmoon/cpp_projects/algorithm/array/build/CMakeFiles /home/dearmoon/cpp_projects/algorithm/array/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dearmoon/cpp_projects/array/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dearmoon/cpp_projects/algorithm/array/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -122,6 +122,19 @@ dynamicArrays: cmake_check_build_system
 dynamicArrays/fast:
 	$(MAKE) -f CMakeFiles/dynamicArrays.dir/build.make CMakeFiles/dynamicArrays.dir/build
 .PHONY : dynamicArrays/fast
+
+#=============================================================================
+# Target rules for targets named staticArrays
+
+# Build rule for target.
+staticArrays: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 staticArrays
+.PHONY : staticArrays
+
+# fast build rule for target.
+staticArrays/fast:
+	$(MAKE) -f CMakeFiles/staticArrays.dir/build.make CMakeFiles/staticArrays.dir/build
+.PHONY : staticArrays/fast
 
 #=============================================================================
 # Target rules for targets named dynamicArrays_problem1
@@ -190,6 +203,33 @@ src/dynamicArrays_problem1.cpp.s:
 	$(MAKE) -f CMakeFiles/dynamicArrays_problem1.dir/build.make CMakeFiles/dynamicArrays_problem1.dir/src/dynamicArrays_problem1.cpp.s
 .PHONY : src/dynamicArrays_problem1.cpp.s
 
+src/staticArrays.o: src/staticArrays.cpp.o
+
+.PHONY : src/staticArrays.o
+
+# target to build an object file
+src/staticArrays.cpp.o:
+	$(MAKE) -f CMakeFiles/staticArrays.dir/build.make CMakeFiles/staticArrays.dir/src/staticArrays.cpp.o
+.PHONY : src/staticArrays.cpp.o
+
+src/staticArrays.i: src/staticArrays.cpp.i
+
+.PHONY : src/staticArrays.i
+
+# target to preprocess a source file
+src/staticArrays.cpp.i:
+	$(MAKE) -f CMakeFiles/staticArrays.dir/build.make CMakeFiles/staticArrays.dir/src/staticArrays.cpp.i
+.PHONY : src/staticArrays.cpp.i
+
+src/staticArrays.s: src/staticArrays.cpp.s
+
+.PHONY : src/staticArrays.s
+
+# target to generate assembly for a file
+src/staticArrays.cpp.s:
+	$(MAKE) -f CMakeFiles/staticArrays.dir/build.make CMakeFiles/staticArrays.dir/src/staticArrays.cpp.s
+.PHONY : src/staticArrays.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -199,6 +239,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... dynamicArrays"
 	@echo "... edit_cache"
+	@echo "... staticArrays"
 	@echo "... dynamicArrays_problem1"
 	@echo "... src/dynamicArrays.o"
 	@echo "... src/dynamicArrays.i"
@@ -206,6 +247,9 @@ help:
 	@echo "... src/dynamicArrays_problem1.o"
 	@echo "... src/dynamicArrays_problem1.i"
 	@echo "... src/dynamicArrays_problem1.s"
+	@echo "... src/staticArrays.o"
+	@echo "... src/staticArrays.i"
+	@echo "... src/staticArrays.s"
 .PHONY : help
 
 

@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/dearmoon/cpp_projects/array/src/dynamicArrays.cpp
+/home/dearmoon/cpp_projects/algorithm/array/src/dynamicArrays.cpp
 iostream
 -
 

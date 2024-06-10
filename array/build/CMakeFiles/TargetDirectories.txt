@@ -1,4 +1,5 @@
-/home/dearmoon/cpp_projects/array/build/CMakeFiles/rebuild_cache.dir
-/home/dearmoon/cpp_projects/array/build/CMakeFiles/dynamicArrays.dir
-/home/dearmoon/cpp_projects/array/build/CMakeFiles/edit_cache.dir
-/home/dearmoon/cpp_projects/array/build/CMakeFiles/dynamicArrays_problem1.dir
+/home/dearmoon/cpp_projects/algorithm/array/build/CMakeFiles/rebuild_cache.dir
+/home/dearmoon/cpp_projects/algorithm/array/build/CMakeFiles/dynamicArrays.dir
+/home/dearmoon/cpp_projects/algorithm/array/build/CMakeFiles/edit_cache.dir
+/home/dearmoon/cpp_projects/algorithm/array/build/CMakeFiles/staticArrays.dir
+/home/dearmoon/cpp_projects/algorithm/array/build/CMakeFiles/dynamicArrays_problem1.dir
