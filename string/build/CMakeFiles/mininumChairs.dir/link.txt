@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/mininumChairs.dir/src/minimunChairs.cpp.o  -o mininumChairs 

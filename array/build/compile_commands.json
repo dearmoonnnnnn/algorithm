@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/dearmoon/cpp_projects/array/build",
+  "command": "/usr/bin/c++    -g   -o CMakeFiles/dynamicArrays.dir/src/dynamicArrays.cpp.o -c /home/dearmoon/cpp_projects/array/src/dynamicArrays.cpp",
+  "file": "/home/dearmoon/cpp_projects/array/src/dynamicArrays.cpp"
+},
+{
+  "directory": "/home/dearmoon/cpp_projects/array/build",
+  "command": "/usr/bin/c++    -g   -o CMakeFiles/dynamicArrays_problem1.dir/src/dynamicArrays_problem1.cpp.o -c /home/dearmoon/cpp_projects/array/src/dynamicArrays_problem1.cpp",
+  "file": "/home/dearmoon/cpp_projects/array/src/dynamicArrays_problem1.cpp"
+}
+]
