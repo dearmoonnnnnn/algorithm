@@ -1,0 +1,95 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "MyCppProject",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "cstyle_string::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cstyle_string-Debug-6bad29a789f3afd1e56a.json",
+					"name" : "cstyle_string",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "for_each::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-for_each-Debug-bb8a9fb8b77cdad4f300.json",
+					"name" : "for_each",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "for_each_2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-for_each_2-Debug-7cd206707f2c161842cd.json",
+					"name" : "for_each_2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mininumChairs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mininumChairs-Debug-d0c231971fa41f3e0b61.json",
+					"name" : "mininumChairs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test-Debug-f86536d3860e370ad78a.json",
+					"name" : "test",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/dearmoon/cpp_projects/algorithm/string/build",
+		"source" : "/home/dearmoon/cpp_projects/algorithm/string"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}

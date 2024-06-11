@@ -683,8 +683,8 @@
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "/home/dearmoon/cpp_projects/algorithm/array/build",
-		"source" : "/home/dearmoon/cpp_projects/algorithm/array"
+		"build" : "/home/dearmoon/cpp_projects/algorithm/string/build",
+		"source" : "/home/dearmoon/cpp_projects/algorithm/string"
 	},
 	"version" : 
 	{

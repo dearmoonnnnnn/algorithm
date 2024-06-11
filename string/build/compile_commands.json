@@ -1,0 +1,27 @@
+[
+{
+  "directory": "/home/dearmoon/cpp_projects/algorithm/string/build",
+  "command": "/usr/bin/c++    -g   -o CMakeFiles/mininumChairs.dir/src/minimunChairs.cpp.o -c /home/dearmoon/cpp_projects/algorithm/string/src/minimunChairs.cpp",
+  "file": "/home/dearmoon/cpp_projects/algorithm/string/src/minimunChairs.cpp"
+},
+{
+  "directory": "/home/dearmoon/cpp_projects/algorithm/string/build",
+  "command": "/usr/bin/c++    -g   -o CMakeFiles/test.dir/src/test.cpp.o -c /home/dearmoon/cpp_projects/algorithm/string/src/test.cpp",
+  "file": "/home/dearmoon/cpp_projects/algorithm/string/src/test.cpp"
+},
+{
+  "directory": "/home/dearmoon/cpp_projects/algorithm/string/build",
+  "command": "/usr/bin/c++    -g   -o CMakeFiles/cstyle_string.dir/src/cstyle_string.cpp.o -c /home/dearmoon/cpp_projects/algorithm/string/src/cstyle_string.cpp",
+  "file": "/home/dearmoon/cpp_projects/algorithm/string/src/cstyle_string.cpp"
+},
+{
+  "directory": "/home/dearmoon/cpp_projects/algorithm/string/build",
+  "command": "/usr/bin/c++    -g   -o CMakeFiles/for_each_2.dir/src/for_each_Lambda.cpp.o -c /home/dearmoon/cpp_projects/algorithm/string/src/for_each_Lambda.cpp",
+  "file": "/home/dearmoon/cpp_projects/algorithm/string/src/for_each_Lambda.cpp"
+},
+{
+  "directory": "/home/dearmoon/cpp_projects/algorithm/string/build",
+  "command": "/usr/bin/c++    -g   -o CMakeFiles/for_each.dir/src/for_each.cpp.o -c /home/dearmoon/cpp_projects/algorithm/string/src/for_each.cpp",
+  "file": "/home/dearmoon/cpp_projects/algorithm/string/src/for_each.cpp"
+}
+]
