@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/dearmoon/cpp_projects/algorithm/hashMap/build",
+  "command": "/usr/bin/c++    -g   -o CMakeFiles/map.dir/src/map.cpp.o -c /home/dearmoon/cpp_projects/algorithm/hashMap/src/map.cpp",
+  "file": "/home/dearmoon/cpp_projects/algorithm/hashMap/src/map.cpp"
+}
+]

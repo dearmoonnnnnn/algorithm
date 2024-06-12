@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/dearmoon/cpp_projects/algorithm/ref/build",
+  "command": "/usr/bin/c++    -g   -o CMakeFiles/test.dir/src/test.cpp.o -c /home/dearmoon/cpp_projects/algorithm/ref/src/test.cpp",
+  "file": "/home/dearmoon/cpp_projects/algorithm/ref/src/test.cpp"
+}
+]
