@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/twoSum.dir/src/1_twoSum.cpp.o  -o twoSum 

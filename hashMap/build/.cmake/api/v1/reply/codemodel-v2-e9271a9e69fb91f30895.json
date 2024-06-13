@@ -14,7 +14,8 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -29,7 +30,8 @@
 					"name" : "hashMapProject",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -40,6 +42,13 @@
 					"id" : "map::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-map-Debug-59daa9d032e3488f2e9a.json",
 					"name" : "map",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "twoSum::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-twoSum-Debug-391be6c4a5cf82d59aec.json",
+					"name" : "twoSum",
 					"projectIndex" : 0
 				}
 			]

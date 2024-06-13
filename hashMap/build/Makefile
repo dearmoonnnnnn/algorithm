@@ -56,17 +56,6 @@ CMAKE_BINARY_DIR = /home/dearmoon/cpp_projects/algorithm/hashMap/build
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/usr/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -77,6 +66,17 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/usr/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named twoSum
+
+# Build rule for target.
+twoSum: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 twoSum
+.PHONY : twoSum
+
+# fast build rule for target.
+twoSum/fast:
+	$(MAKE) -f CMakeFiles/twoSum.dir/build.make CMakeFiles/twoSum.dir/build
+.PHONY : twoSum/fast
+
+#=============================================================================
 # Target rules for targets named map
 
 # Build rule for target.
@@ -122,6 +135,33 @@ map: cmake_check_build_system
 map/fast:
 	$(MAKE) -f CMakeFiles/map.dir/build.make CMakeFiles/map.dir/build
 .PHONY : map/fast
+
+src/1_twoSum.o: src/1_twoSum.cpp.o
+
+.PHONY : src/1_twoSum.o
+
+# target to build an object file
+src/1_twoSum.cpp.o:
+	$(MAKE) -f CMakeFiles/twoSum.dir/build.make CMakeFiles/twoSum.dir/src/1_twoSum.cpp.o
+.PHONY : src/1_twoSum.cpp.o
+
+src/1_twoSum.i: src/1_twoSum.cpp.i
+
+.PHONY : src/1_twoSum.i
+
+# target to preprocess a source file
+src/1_twoSum.cpp.i:
+	$(MAKE) -f CMakeFiles/twoSum.dir/build.make CMakeFiles/twoSum.dir/src/1_twoSum.cpp.i
+.PHONY : src/1_twoSum.cpp.i
+
+src/1_twoSum.s: src/1_twoSum.cpp.s
+
+.PHONY : src/1_twoSum.s
+
+# target to generate assembly for a file
+src/1_twoSum.cpp.s:
+	$(MAKE) -f CMakeFiles/twoSum.dir/build.make CMakeFiles/twoSum.dir/src/1_twoSum.cpp.s
+.PHONY : src/1_twoSum.cpp.s
 
 src/map.o: src/map.cpp.o
 
@@ -156,9 +196,13 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... rebuild_cache"
+	@echo "... twoSum"
 	@echo "... map"
+	@echo "... src/1_twoSum.o"
+	@echo "... src/1_twoSum.i"
+	@echo "... src/1_twoSum.s"
 	@echo "... src/map.o"
 	@echo "... src/map.i"
 	@echo "... src/map.s"
