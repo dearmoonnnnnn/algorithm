@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/dearmoon/projects/cpp_projects/algorithm/basic/build",
+  "command": "/usr/bin/c++    -g   -o CMakeFiles/main.dir/src/main.cpp.o -c /home/dearmoon/projects/cpp_projects/algorithm/basic/src/main.cpp",
+  "file": "/home/dearmoon/projects/cpp_projects/algorithm/basic/src/main.cpp"
+},
+{
+  "directory": "/home/dearmoon/projects/cpp_projects/algorithm/basic/build",
+  "command": "/usr/bin/c++    -g   -o CMakeFiles/if.dir/src/if.cpp.o -c /home/dearmoon/projects/cpp_projects/algorithm/basic/src/if.cpp",
+  "file": "/home/dearmoon/projects/cpp_projects/algorithm/basic/src/if.cpp"
+}
+]
