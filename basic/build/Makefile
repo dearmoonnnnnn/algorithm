@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named io
+
+# Build rule for target.
+io: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 io
+.PHONY : io
+
+# fast build rule for target.
+io/fast:
+	$(MAKE) -f CMakeFiles/io.dir/build.make CMakeFiles/io.dir/build
+.PHONY : io/fast
+
+#=============================================================================
 # Target rules for targets named main
 
 # Build rule for target.
@@ -163,6 +176,33 @@ src/if.cpp.s:
 	$(MAKE) -f CMakeFiles/if.dir/build.make CMakeFiles/if.dir/src/if.cpp.s
 .PHONY : src/if.cpp.s
 
+src/io.o: src/io.cpp.o
+
+.PHONY : src/io.o
+
+# target to build an object file
+src/io.cpp.o:
+	$(MAKE) -f CMakeFiles/io.dir/build.make CMakeFiles/io.dir/src/io.cpp.o
+.PHONY : src/io.cpp.o
+
+src/io.i: src/io.cpp.i
+
+.PHONY : src/io.i
+
+# target to preprocess a source file
+src/io.cpp.i:
+	$(MAKE) -f CMakeFiles/io.dir/build.make CMakeFiles/io.dir/src/io.cpp.i
+.PHONY : src/io.cpp.i
+
+src/io.s: src/io.cpp.s
+
+.PHONY : src/io.s
+
+# target to generate assembly for a file
+src/io.cpp.s:
+	$(MAKE) -f CMakeFiles/io.dir/build.make CMakeFiles/io.dir/src/io.cpp.s
+.PHONY : src/io.cpp.s
+
 src/main.o: src/main.cpp.o
 
 .PHONY : src/main.o
@@ -198,11 +238,15 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... io"
 	@echo "... main"
 	@echo "... if"
 	@echo "... src/if.o"
 	@echo "... src/if.i"
 	@echo "... src/if.s"
+	@echo "... src/io.o"
+	@echo "... src/io.i"
+	@echo "... src/io.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/maxOnes.dir/Iflytek/maxOnes.cpp.o  -o maxOnes 

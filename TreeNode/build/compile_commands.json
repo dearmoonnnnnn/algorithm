@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/dearmoon/projects/cpp_projects/algorithm/TreeNode/build",
+  "command": "/usr/bin/c++    -g   -o CMakeFiles/isSameTree.dir/src/100_isSameTree.cpp.o -c /home/dearmoon/projects/cpp_projects/algorithm/TreeNode/src/100_isSameTree.cpp",
+  "file": "/home/dearmoon/projects/cpp_projects/algorithm/TreeNode/src/100_isSameTree.cpp"
+},
+{
+  "directory": "/home/dearmoon/projects/cpp_projects/algorithm/TreeNode/build",
+  "command": "/usr/bin/c++    -g   -o CMakeFiles/maxDepth.dir/src/104_maxDepth.cpp.o -c /home/dearmoon/projects/cpp_projects/algorithm/TreeNode/src/104_maxDepth.cpp",
+  "file": "/home/dearmoon/projects/cpp_projects/algorithm/TreeNode/src/104_maxDepth.cpp"
+}
+]

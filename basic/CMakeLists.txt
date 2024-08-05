@@ -4,3 +4,4 @@ project(basicUsageProject)
 
 add_executable(if src/if.cpp)
 add_executable(main src/main.cpp)
+add_executable(io src/io.cpp)
