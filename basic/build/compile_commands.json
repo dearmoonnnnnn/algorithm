@@ -1,17 +1,20 @@
 [
 {
-  "directory": "/home/dearmoon/projects/cpp_projects/algorithm/basic/build",
-  "command": "/usr/bin/c++    -g   -o CMakeFiles/io.dir/src/io.cpp.o -c /home/dearmoon/projects/cpp_projects/algorithm/basic/src/io.cpp",
-  "file": "/home/dearmoon/projects/cpp_projects/algorithm/basic/src/io.cpp"
+  "directory": "C:/Users/yyyyyyyyyyyy/Desktop/GitHub/algorithm/basic/build",
+  "command": "C:\\Users\\mingw\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\if.dir\\src\\if.cpp.obj -c C:\\Users\\yyyyyyyyyyyy\\Desktop\\GitHub\\algorithm\\basic\\src\\if.cpp",
+  "file": "C:/Users/yyyyyyyyyyyy/Desktop/GitHub/algorithm/basic/src/if.cpp",
+  "output": "CMakeFiles/if.dir/src/if.cpp.obj"
 },
 {
-  "directory": "/home/dearmoon/projects/cpp_projects/algorithm/basic/build",
-  "command": "/usr/bin/c++    -g   -o CMakeFiles/main.dir/src/main.cpp.o -c /home/dearmoon/projects/cpp_projects/algorithm/basic/src/main.cpp",
-  "file": "/home/dearmoon/projects/cpp_projects/algorithm/basic/src/main.cpp"
+  "directory": "C:/Users/yyyyyyyyyyyy/Desktop/GitHub/algorithm/basic/build",
+  "command": "C:\\Users\\mingw\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\main.dir\\src\\main.cpp.obj -c C:\\Users\\yyyyyyyyyyyy\\Desktop\\GitHub\\algorithm\\basic\\src\\main.cpp",
+  "file": "C:/Users/yyyyyyyyyyyy/Desktop/GitHub/algorithm/basic/src/main.cpp",
+  "output": "CMakeFiles/main.dir/src/main.cpp.obj"
 },
 {
-  "directory": "/home/dearmoon/projects/cpp_projects/algorithm/basic/build",
-  "command": "/usr/bin/c++    -g   -o CMakeFiles/if.dir/src/if.cpp.o -c /home/dearmoon/projects/cpp_projects/algorithm/basic/src/if.cpp",
-  "file": "/home/dearmoon/projects/cpp_projects/algorithm/basic/src/if.cpp"
+  "directory": "C:/Users/yyyyyyyyyyyy/Desktop/GitHub/algorithm/basic/build",
+  "command": "C:\\Users\\mingw\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\io.dir\\src\\io.cpp.obj -c C:\\Users\\yyyyyyyyyyyy\\Desktop\\GitHub\\algorithm\\basic\\src\\io.cpp",
+  "file": "C:/Users/yyyyyyyyyyyy/Desktop/GitHub/algorithm/basic/src/io.cpp",
+  "output": "CMakeFiles/io.dir/src/io.cpp.obj"
 }
 ]

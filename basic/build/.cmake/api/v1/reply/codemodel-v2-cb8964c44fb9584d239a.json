@@ -6,6 +6,7 @@
 			[
 				{
 					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.10"
@@ -42,21 +43,21 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "if::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-if-Debug-520f758ad15b7d86496a.json",
+					"jsonFile" : "target-if-Debug-1fc2e04da2c2f690f27a.json",
 					"name" : "if",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "io::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-io-Debug-90a0ed3309a1acc14f9b.json",
+					"jsonFile" : "target-io-Debug-a5191858d1ce80bd8d27.json",
 					"name" : "io",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "main::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-main-Debug-6d90d49b00b6264b49b3.json",
+					"jsonFile" : "target-main-Debug-06f5f96bea549b8aa243.json",
 					"name" : "main",
 					"projectIndex" : 0
 				}
@@ -66,12 +67,12 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/home/dearmoon/projects/cpp_projects/algorithm/basic/build",
-		"source" : "/home/dearmoon/projects/cpp_projects/algorithm/basic"
+		"build" : "C:/Users/yyyyyyyyyyyy/Desktop/GitHub/algorithm/basic/build",
+		"source" : "C:/Users/yyyyyyyyyyyy/Desktop/GitHub/algorithm/basic"
 	},
 	"version" : 
 	{
 		"major" : 2,
-		"minor" : 0
+		"minor" : 7
 	}
 }

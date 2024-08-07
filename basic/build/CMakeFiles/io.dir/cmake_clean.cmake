@@ -1,7 +1,10 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/io.dir/src/io.cpp.o"
-  "io"
+  "CMakeFiles/io.dir/src/io.cpp.obj"
+  "CMakeFiles/io.dir/src/io.cpp.obj.d"
+  "io.exe"
+  "io.exe.manifest"
   "io.pdb"
+  "libio.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

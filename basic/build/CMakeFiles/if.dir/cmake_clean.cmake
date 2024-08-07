@@ -1,7 +1,10 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/if.dir/src/if.cpp.o"
-  "if"
+  "CMakeFiles/if.dir/src/if.cpp.obj"
+  "CMakeFiles/if.dir/src/if.cpp.obj.d"
+  "if.exe"
+  "if.exe.manifest"
   "if.pdb"
+  "libif.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

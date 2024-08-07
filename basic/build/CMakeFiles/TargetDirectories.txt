@@ -1,5 +1,5 @@
-/home/dearmoon/projects/cpp_projects/algorithm/basic/build/CMakeFiles/rebuild_cache.dir
-/home/dearmoon/projects/cpp_projects/algorithm/basic/build/CMakeFiles/edit_cache.dir
-/home/dearmoon/projects/cpp_projects/algorithm/basic/build/CMakeFiles/io.dir
-/home/dearmoon/projects/cpp_projects/algorithm/basic/build/CMakeFiles/main.dir
-/home/dearmoon/projects/cpp_projects/algorithm/basic/build/CMakeFiles/if.dir
+C:/Users/yyyyyyyyyyyy/Desktop/GitHub/algorithm/basic/build/CMakeFiles/if.dir
+C:/Users/yyyyyyyyyyyy/Desktop/GitHub/algorithm/basic/build/CMakeFiles/main.dir
+C:/Users/yyyyyyyyyyyy/Desktop/GitHub/algorithm/basic/build/CMakeFiles/io.dir
+C:/Users/yyyyyyyyyyyy/Desktop/GitHub/algorithm/basic/build/CMakeFiles/edit_cache.dir
+C:/Users/yyyyyyyyyyyy/Desktop/GitHub/algorithm/basic/build/CMakeFiles/rebuild_cache.dir
